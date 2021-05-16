@@ -42,7 +42,6 @@ router.setState = function(state, entry, entryItem) {
   if(state == 1) {
     headingTag.innerHTML = "Journal Entries";
     bodyTag.classList = null;
-
   } else if (state == 2) {
     headingTag.innerHTML = "Entry " + entry;
     bodyTag.classList = null;

@@ -54,6 +54,8 @@ window.onpopstate = function(event) {
       router.setState(2, event.state.entryNumber, event.state.entryItem);
     } else if (event.state.currentState === 3) {
       router.setState(3, 0, null);
+    } else {
+    router.setState(1, 0, null);
     }
   } else {
     router.setState(1, 0, null);
